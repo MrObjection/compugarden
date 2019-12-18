@@ -1,0 +1,318 @@
+.filterDiv {
+  display: none;
+}
+.filterDiv2 {
+  display: none;
+}
+
+.containerlabel {
+  overflow: hidden;
+  width: auto; 
+  padding-right:20px;
+  padding-left:0px;
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:2%;
+  margin-top:2%;
+  min-width:180px;
+}
+
+#imgappjuego {
+  float: left;
+  color: #ffffff;
+  width: 300px;
+  margin-bottom: 2%;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#myInput {
+	display: block;
+	width: 100%;
+	height: 32px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    min-width:180px;
+    max-width:180px;
+}
+
+#myInput2 {
+	display: block;
+	width: 100%;
+	height: 32px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    min-width:180px;
+    max-width:180px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL2 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#myUL2 li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL2 li a:hover:not(.header) {
+  background-color: #eee;
+}
+@media screen and (min-width: 320px){.col-xs-12 {
+	width: 60%;
+}}
+@media screen and (min-width: 376px){.col-xs-12 {
+	width: 60%;
+}}
+@media screen and (min-width: 416px){.col-xs-12 {
+	width: 50%;
+}}
+@media screen and (min-width: 432px){.col-xs-12 {
+
+	width: 48%;
+}}
+@media screen and (min-width: 488px){.col-md-2 {
+	width: 44%;
+}}
+@media screen and (min-width: 544px){.col-md-2 {
+	width: 37%;
+}}
+@media screen and (min-width: 656px){.col-md-2 {
+	width: 32%;
+}}
+@media screen and (min-width: 768px){.col-md-2 {
+	width: 26%;
+}}
+.filterDiv2 {
+  display: none;
+}
+
+.show1{
+  display: block;
+}
+
+.containerlabel {
+  overflow: hidden;
+  width: auto; 
+  padding-right:20px;
+  padding-left:0px;
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:2%;
+  margin-top:2%;
+  min-width:180px;
+}
+
+#imgappjuego {
+  float: left;
+  color: #ffffff;
+  width: 375px;
+  margin-bottom: 2%;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#myInput {
+	display: block;
+	width: 100%;
+	height: 32px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    min-width:180px;
+    max-width:180px;
+}
+
+#myInput2 {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    min-width:180px;
+    max-width:180px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 1%;
+}
+
+#myUL2 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 1%;
+}
+
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#myUL2 li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL2 li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+@media screen and (min-width: 992px){.col-md-2 {
+	width: 20%;
+}}
+@media screen and (min-width: 1104px){.col-md-2 {
+	width: 17%;
+}}
+
+@media screen and (min-width: 300px) and (max-width: 767px){#imgappjuego {
+	text-align: inherit;
+}}
+@media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: portrait){
+#imgappjuego {
+  float: left;
+  color: #ffffff;
+  width: 395px;
+  margin-bottom: 2%;
+  text-align: right;
+  margin-left: 16%;
+  margin-right: 5px;
+  }}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+#imgappjuego {
+  float: left;
+  color: #ffffff;
+  width: 280px;
+  margin-bottom: 2%;
+  text-align: center;
+  margin-left: 13%;
+  margin-right: 5px;
+  }}
+@media screen and (min-width: 300px) and (max-width: 768px)and (orientation: portrait){#myInput {
+	min-width: 0px;
+	max-width: 249px;
+	margin-left: 6%;
+}}
+@media screen and (min-width: 300px) and (max-width: 768px)and (orientation: portrait){#myInput2 {
+	min-width: 0px;
+	max-width: 249px;
+	margin-left: 6%;
+}}
+@media screen and (min-width: 300px) and (max-width: 768px) and (orientation: portrait){select.form-control {
+	min-width: 180px;
+	max-width: none !important;
+	margin-left: 6%;
+}}
+@media (min-width:500px) {
+    .col-md-2 {
+        margin-right: auto;
+    }
+}
