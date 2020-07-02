@@ -1,0 +1,129 @@
+body .sectionContainer{
+    width:1500px;
+    margin:0 auto;
+    padding:20px 60px 20px 30px
+}
+@media only screen and (max-width:1225px){
+    body .sectionContainer{
+        width:1200px;
+        padding:20px 60px 20px 30px;
+    }
+}
+@media only screen and (max-width:1015px){
+    body .sectionContainer{
+        width:100%;
+        padding:20px 20px 20px 10px;
+    }
+}
+@media only screen and (max-width:625px){
+    body .sectionContainer{
+        padding:20px 16px 20px 16px
+    }
+}
+.content,.tableHeader{
+    font-size:14px
+}
+.tableHeader{
+    padding:20px 0;
+    color:#000;
+    text-align:left
+}
+section.specsMain{
+    width:100%;
+    margin:auto
+}
+section.specsMain .specsTable{
+    width:100%;
+    vertical-align:top
+}
+@media only screen and (max-width:1015px){
+    section.specsMain{
+        width:100%
+    }
+    section.specsMain .specsTable .tableHeader{
+        border-right:0;
+        border-bottom:3px solid #e1261c
+    }
+    section.specsMain .specsTable .tableHeader:nth-of-type(3),section.specsMain .specsTable .tableHeader:nth-of-type(5){
+        width:100%
+    }
+    section.specsMain .specsTable .content{
+        width:100%;
+        padding:15px 0 0 0
+    }
+}
+@media only screen and (max-width:625px){
+    section.specsMain{
+        padding-left:16px;
+        padding-right:16px
+    }
+}
+section.specsMain .specsTable{
+    vertical-align:top
+}
+section.specsMain .specsTable .tableHeader{
+    padding-bottom:10px;
+    border-bottom:2px solid #ff0024;
+}
+section.specsMain .specsTable *{
+    display:block
+}
+section.specsMain .specsTable .rowTable{
+    display:inline-block;
+    margin-bottom:16px;
+    vertical-align:top
+}
+section.specsMain .specsTable .rowTable:not(:nth-of-type(3n)){
+    margin-right:60px
+}
+section.specsMain .specsTable .content,section.specsMain .specsTable .rowHeader{
+    display:inline-block;
+    width:160px;
+    font-size:13px;
+    padding:8px 0;
+    line-height:1.3;
+    text-align:left
+}
+section.specsMain .specsTable .rowHeader{
+    vertical-align:top;
+    padding-right:6px
+}
+@media only screen and (max-width:1225px){
+    section.specsMain .specsTable .rowTable:not(:nth-of-type(3n)){
+        margin-right:38px
+    }
+    section.specsMain .specsTable .content,section.specsMain .specsTable .rowHeader{
+        width:134px
+    }
+}
+@media only screen and (max-width:1015px){
+    section.specsMain .specsTable .rowTable{
+        width:calc(50% - 15px);
+    }
+    section.specsMain .specsTable .rowTable:not(:nth-of-type(3n)){
+        margin-right:0
+    }
+    section.specsMain .specsTable .rowTable:not(:nth-of-type(2n)){
+        margin-right:25px;
+    }
+    section.specsMain .specsTable .content,section.specsMain .specsTable .rowHeader{
+        width:50%
+    }
+    section.specsMain .specsTable .rowHeader{
+        padding-bottom:0
+    }
+    section.specsMain .specsTable .content{
+        padding-top:2px
+    }
+}
+@media only screen and (max-width:625px){
+    section.specsMain .specsTable .rowTable{
+        width:100%
+    }
+    section.specsMain .specsTable .rowTable:not(:nth-of-type(2n)){
+        margin-right:0
+    }
+    section.specsMain .specsTable .content,section.specsMain .specsTable .rowHeader{
+        width:100%
+    }
+}
